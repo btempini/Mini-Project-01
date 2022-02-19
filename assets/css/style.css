@@ -1,4 +1,5 @@
 * {
+    background-color: beige;
     padding: 0;
     margin: 0;
 }
@@ -86,7 +87,10 @@ textarea {
 }
 
 h2 {
+    margin: 20px;
+    border-bottom: chocolate solid 1px;
     font-family: fantasy;
+    color: chocolate;
     text-align: center;
 }
 
@@ -113,10 +117,19 @@ textarea {
 button {
     height: 40px;
     width: 120px;
-    background-color: #4F4846;
+    background-color: chocolate;
     color: #FDF8F5;
 }
 
 section {
     background-color: beige;
+}
+
+/*Footer Section*/
+
+.footer {
+    text-align: center;
+    background-color: beige;
+    font-family: fantasy;
+    color: chocolate;
 }
