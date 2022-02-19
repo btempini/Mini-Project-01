@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Top Bar*/
+
+.header {
+    font-family: fantasy;
+    padding: 20px;
+    background-color: beige;
+    color: chocolate;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: darkgreen;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 45px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style: none; 
+}
+
+.header div ul li {
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+/*How the links look and react*/
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    color: chocolate;
+}
+
+/*Photo Section*/
+
+.main-photo {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/dirtbike.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*Form Section*/
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid royalblue;
+}
+
+h2 {
+    font-family: fantasy;
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #4F4846;
+    color: #FDF8F5;
+}
+
+section {
+    background-color: beige;
+}
